@@ -1,0 +1,113 @@
+.community-main {
+  width: 100vw;
+  min-height: 100vh;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.community-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  padding: 4rem 0 2rem 0;
+  gap: 3rem;
+}
+
+.community-illustration img {
+  height: 270px;
+  max-width: 350px;
+}
+
+.community-info {
+  max-width: 600px;
+}
+
+.community-info h1 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.community-info p {
+  color: #757575;
+  margin-bottom: 2rem;
+}
+
+.community-learn-more {
+  background: #28c88b;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.community-bottom {
+  width: 100vw;
+  background: #f7f8fa;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 3rem 6vw 3rem 6vw;
+  margin-top: 2rem;
+  gap: 4rem;
+}
+
+.community-bottom-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 300px;
+}
+
+.community-bottom-left h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.community-green {
+  color: #28c88b;
+}
+
+.community-bottom-left p {
+  color: #263238;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.community-bottom-right {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem 4rem;
+}
+
+.community-stat {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.community-stat img {
+  height: 32px;
+}
+
+.community-stat-number {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #263238;
+}
+
+.community-stat-label {
+  color: #757575;
+  font-size: 1rem;
+}

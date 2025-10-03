@@ -1,0 +1,159 @@
+.blog-main {
+  width: 100vw;
+  min-height: 100vh;
+  background: #f7f8fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.blog-title-green {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #28c88b;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.blog-intro {
+  font-size: 1.2rem;
+  color: #263238;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.blog-testimonial {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  background: #f7f8fa;
+  padding: 2rem 3vw;
+  border-radius: 16px;
+  margin-bottom: 3rem;
+  width: 90vw;
+  max-width: 1200px;
+}
+
+.blog-testimonial-image img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.blog-testimonial-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-testimonial-content p {
+  color: #757575;
+  margin-bottom: 1.5rem;
+}
+
+.blog-testimonial-author {
+  margin-bottom: 1.5rem;
+}
+
+.blog-author-name {
+  color: #28c88b;
+  font-weight: 600;
+  font-size: 1.1rem;
+  display: block;
+}
+
+.blog-author-role {
+  color: #757575;
+  font-size: 1rem;
+  display: block;
+}
+
+.blog-logos {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.blog-logos img {
+  height: 32px;
+  object-fit: contain;
+}
+
+.blog-customers-link {
+  color: #28c88b;
+  font-weight: 600;
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.blog-articles {
+  width: 90vw;
+  max-width: 1200px;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog-articles h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #263238;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.blog-articles-list {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.blog-article-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(40, 200, 139, 0.05);
+  padding: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  width: 400px;
+  max-width: 100%;
+}
+
+.blog-article-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #f7f8fa;
+}
+
+.blog-article-card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #263238;
+  margin-bottom: 0.5rem;
+}
+
+.blog-article-card p {
+  color: #757575;
+  margin-bottom: 0.5rem;
+}
+
+.blog-read-more {
+  color: #28c88b;
+  font-weight: 500;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}

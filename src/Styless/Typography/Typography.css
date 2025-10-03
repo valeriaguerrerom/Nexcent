@@ -1,0 +1,65 @@
+body {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  color: #263238;
+}
+
+.typography-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-top: 2rem;
+  color: #263238;
+}
+
+.typography-headlines {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.typography-headlines-title {
+  flex: 1;
+  color: #2196f3;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.typography-headlines-content {
+  flex: 3;
+}
+
+.typography-header {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.headline1 {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 76px;
+}
+
+.headline2 {
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 44px;
+  margin-top: 1.5rem;
+}
+
+.headline3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 36px;
+  margin-top: 1.5rem;
+}
+
+.headline4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 28px;
+  margin-top: 1.5rem;
+}
+
+.typography-desc {
+  color: #757575;
+  font-size: 0.9rem;
+}
