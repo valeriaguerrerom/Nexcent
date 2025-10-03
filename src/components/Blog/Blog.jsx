@@ -1,12 +1,12 @@
 import React, { useRef } from 'react';
 import './Blog.css';
 import teslaLogo from '../../assets/tesla-logo.png';
-import logo1 from '../../assets/Logo 1.png';
-import logo2 from '../../assets/Logo 2.png';
-import logo3 from '../../assets/Logo 3.png';
-import logo4 from '../../assets/Logo 4.png';
-import logo5 from '../../assets/Logo 5.png';
-import logo6 from '../../assets/Logo 6.png';
+import logo1 from '../../assets/Logo1.png';
+import logo2 from '../../assets/Logo2.png';
+import logo3 from '../../assets/Logo3.png';
+import logo4 from '../../assets/Logo4.png';
+import logo5 from '../../assets/Logo5.png';
+import logo6 from '../../assets/Logo6.png';
 import illustration from '../../assets/illustration.png';
 
 function Blog() {
